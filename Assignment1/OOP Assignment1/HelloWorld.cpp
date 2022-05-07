@@ -12,19 +12,3 @@ HelloWorld::HelloWorld(int input)
 	//for looping purpouses
 }
 
-void HelloWorld::HelloBasic()
-{
-	std::cout << "Hello World!\n";
-}
-
-void HelloWorld::HelloFor()
-{
-}
-
-void HelloWorld::HelloWhile()
-{
-}
-
-void HelloWorld::HelloDoWhile()
-{
-}

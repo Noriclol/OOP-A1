@@ -1,0 +1,3 @@
+﻿  Pyramid.cpp
+D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Task8\Pyramid.cpp(76,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Task8.vcxproj -> D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Debug\Task8 Pyramid.exe

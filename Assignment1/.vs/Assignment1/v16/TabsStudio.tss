@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Task5\RecordCstyle.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Task4\Record.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Task8\Pyramid.cpp</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Programmering\Skoluppgifter\Nya OOP Labbar\OOP-A1\Assignment1\Task9.txt</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

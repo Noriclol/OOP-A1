@@ -20,7 +20,31 @@ void ReversePyramid(int Input) {
 
 
 void ASCIIPyramid(char Input) {
-	if (Alfabet.find(Input)) {
+
+	if (Input >= 'A' && Input <= 'Z') {
+
+		//cout << Input << " is an UpperCase character\n";
+
+		int location = SAlfabet.find(Input);
+
+		for (int n = 1; n <= Input - 'A' + 1; n++) {
+
+			for (int i = 1; i <= n; i++) {
+
+				if (n <= location) {
+					cout << SAlfabet[n];
+				}
+				else {
+					break;
+				}
+			}
+			cout << endl;
+		}
+	}
+		
+
+	else if (Input >= 'a' && Input <= 'z') {
+		//cout << Input << " is an LowerCase character\n";
 
 		int location = Alfabet.find(Input);
 
@@ -55,6 +79,4 @@ void main()
 	cin >> n;
 	cout << "\n";
 	ReversePyramid(n);
-
-
 }

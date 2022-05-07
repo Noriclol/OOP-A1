@@ -1,0 +1,8 @@
+What did you learn? What did you know already?
+
+doing these assignments there was a bunch i knew already, however. I had to reorient my self with c++ and pointers specifically. 
+Doing these assignments has been a good way of accomplish that.
+
+What was difficult in the lab? How did you overcome it?
+
+i found filereading and pointers particularly difficult as i havent dealt with them in a while.

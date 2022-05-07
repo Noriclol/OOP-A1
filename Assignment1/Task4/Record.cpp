@@ -1,7 +1,34 @@
 #include <iostream>
+#include <fstream>
+
 #include <string>
+#include "string"
+#include <string.h>
+
+#include <algorithm>
+
+
 
 using namespace std;
+
+
+bool get_bool(std::istream& is) {
+
+
+	string temp;
+	std::getline(is, temp);
+
+	if (temp[0] == 't' || temp[0] == 'T' || isalnum(temp[0]) == 1)
+	{
+		return true;
+	}
+	else if (temp[0] == 'f' || temp[0] == 'F' || isalnum(temp[0]) == 0)
+	{
+		return false;
+	}
+	else
+		return false;
+}
 
 class Entry {
 public:
@@ -45,9 +72,9 @@ Entry Input() {
 	getline(cin, adress);
 	cout << "\n";
 
-
-	bool married;
 	cout << "enter married(bool): ";
+	//cin.ignore();
+	bool married;// = get_bool(cin);
 	cin >> married;
 	cout << "\n";
 

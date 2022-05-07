@@ -7,10 +7,7 @@ public:
 	HelloWorld();
 	HelloWorld(int n);
 
-	void HelloBasic();
-	void HelloFor();
-	void HelloWhile();
-	void HelloDoWhile();
+
 
 };
 
